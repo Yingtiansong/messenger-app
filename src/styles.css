@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container, .channel-list-container, .messages-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.channel-list-container ul, .messages-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.channel-list-container li, .messages-container li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.messages-container li.right {
+  text-align: right;
+  background-color: #e3f2fd;
+}
+
+.messages-container li.left {
+  text-align: left;
+}
+
+.messages-container .time {
+  display: block;
+  font-size: 0.8em;
+  color: #888;
+}
